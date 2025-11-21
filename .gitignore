@@ -1,0 +1,33 @@
+# === Eclipse ===
+.classpath
+.project
+.settings/
+
+# === IntelliJ IDEA (por si abrís el proyecto ahí) ===
+*.iml
+.idea/
+
+# === Archivos compilados ===
+bin/
+target/
+*.class
+
+# === Maven ===
+log/
+*.log
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# === Spring Boot ===
+# Archivos de configuración locales
+application-*.yml
+application-*.properties
+
+# === Sistema operativo ===
+.DS_Store
+Thumbs.db
+
+# === Archivos temporales ===
+*.tmp
+*.swp
+*~
